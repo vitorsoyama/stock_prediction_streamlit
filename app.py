@@ -7,7 +7,7 @@ import model_and_prediction as mp
 
 
 # Lista de alguns tickers da B3
-TICKERS_B3 = gt.get_b3_tickers_from_file("C:/Users/vitor/Documents/Python Projects/projeto_stock_prediction/tickers_data/statusinvest-busca-avancada.csv")
+TICKERS_B3 = gt.get_b3_tickers_from_file("tickers_data/statusinvest-busca-avancada.csv")
 
 # Função para carregar dados de ações brasileiras
 # Interface Streamlit
